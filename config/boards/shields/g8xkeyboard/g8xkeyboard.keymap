@@ -8,9 +8,15 @@
 
         default_layer {
             bindings = <
-                &out OUT_USB &kp N1
-
-
+                &out OUT_USB &kp N1 &out OUT_USB &kp N2 &out OUT_USB &kp N3 &out OUT_USB &kp N4 &kp 5
+                &out OUT_USB &kp N1 &out OUT_USB &kp N2 &out OUT_USB &kp N3 &out OUT_USB &kp N4 &kp 5
+                &out OUT_USB &kp N1 &out OUT_USB &kp N2 &out OUT_USB &kp N3 &out OUT_USB &kp N4 &kp 5
+                &out OUT_USB &kp N1 &out OUT_USB &kp N2 &out OUT_USB &kp N3 &out OUT_USB &kp N4 &kp 5
+                &out OUT_USB &kp N1 &out OUT_USB &kp N2 &out OUT_USB &kp N3 &out OUT_USB &kp N4 &kp 5
+                &out OUT_USB &kp N1 &out OUT_USB &kp N2 &out OUT_USB &kp N3 &out OUT_USB &kp N4 &kp 5
+                &out OUT_USB &kp N1 &out OUT_USB &kp N2 &out OUT_USB &kp N3 &out OUT_USB &kp N4 &kp 5
+                &out OUT_USB &kp N1 &out OUT_USB &kp N2 &out OUT_USB &kp N3 &out OUT_USB &kp N4 &kp 5
+                &out OUT_USB &kp N1 &out OUT_USB &kp N2 &out OUT_USB &kp N3 &out OUT_USB &kp N4 &kp 5
 
             >;
 
