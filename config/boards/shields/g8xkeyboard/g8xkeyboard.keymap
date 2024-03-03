@@ -27,9 +27,6 @@
 
         };
 
-        bt_layer {
-            bindings = <
-            
-        }
     };
+
 };
