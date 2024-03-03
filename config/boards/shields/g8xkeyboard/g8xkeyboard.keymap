@@ -9,19 +9,20 @@
         default_layer {
             bindings = <
                 &out OUT_USB	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&out OUT_USB
-                &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
-                &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
-                &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
-                &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
-                &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
-                &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
-                &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
-                &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
+                &kp 1	&out OUT_USB	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
+                &kp 1	&kp 2	&out OUT_USB	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
+                &kp 1	&kp 2	&kp 3	&out OUT_USB	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
+                &kp 1	&kp 2	&kp 3	&kp 4	&out OUT_USB	&kp 6	&kp 7	&kp 8	&kp 9
+                &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&out OUT_USB	&kp 7	&kp 8	&kp 9
+                &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&out OUT_USB	&kp 8	&kp 9
+                &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&out OUT_USB	&kp 9
+                &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&out OUT_USB
                 &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
                 &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
                 &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
                 &kp 1	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&kp 9
                 &out OUT_USB	&kp 2	&kp 3	&kp 4	&kp 5	&kp 6	&kp 7	&kp 8	&out OUT_USB
+
 
 
             >;
