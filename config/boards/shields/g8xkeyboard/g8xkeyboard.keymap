@@ -6,25 +6,28 @@
         compatible = "zmk,keymap";
 
         default_layer {
-
             bindings = <
-                &kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&kp N7	&kp N8	&kp N9
-                &kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&kp N7	&kp N8	&kp N9
-                &kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&kp N7	&kp N8	&kp N9
-                &kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&kp N7	&kp N8	&kp N9
-                &kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&kp N7	&kp N8	&kp N9
-                &kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&kp N7	&kp N8	&kp N9
-                &kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&kp N7	&kp N8	&kp N9
-                &kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&kp N7	&kp N8	&kp N9
-                &kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&kp N7	&kp N8	&kp N9
-                &kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&kp N7	&kp N8	&kp N9
-                &kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&kp N7	&kp N8	&kp N9
-                &kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&kp N7	&kp N8	&kp N9
-                &kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&kp N7	&kp N8	&kp N9
-                &kp N1	&kp N2	&kp N3	&kp N4	&kp N5	&kp N6	&kp N7	&kp N8	&kp N9
-
+                &kp 1	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB
+                &out OUT_USB	&kp 2	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB
+                &out OUT_USB	&out OUT_USB	&kp 3	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB
+                &out OUT_USB	&out OUT_USB	&out OUT_USB	&kp 4	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB
+                &out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&kp 5	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB
+                &out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&kp 6	&out OUT_USB	&out OUT_USB	&out OUT_USB
+                &out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&kp 7	&out OUT_USB	&out OUT_USB
+                &out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&kp 8	&out OUT_USB
+                &out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&kp 9
+                &out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB
+                &out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB
+                &out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB
+                &out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB
+                &out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB	&out OUT_USB
             >;
 
         };
+
+        bt_layer {
+            bindings = <
+            
+        }
     };
 };
