@@ -11,12 +11,12 @@
             bindings = <
                     &out OUT_USB &bt BT_CLR &bt BT_CLR                 
 
-    &bt BT_CLR &bt BT_CLR       &bt BT_CLR &bt BT_CLR         &bt BT_CLR       &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR
-       &bt BT_CLR &bt BT_CLR       &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR   
-    &bt BT_CLR &out OUT_USB &bt BT_CLR       &bt BT_CLR                           &out OUT_USB &bt BT_CLR &bt BT_CLR &bt BT_CLR
-         &bt BT_CLR       &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR
-    &bt BT_CLR       &bt BT_CLR                                                                 &bt BT_CLR
-               &bt BT_CLR       &bt BT_CLR &bt BT_CLR &out OUT_USB &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR       &bt BT_CLR
+                    &bt BT_CLR &bt BT_CLR       &bt BT_CLR &bt BT_CLR         &bt BT_CLR       &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR
+                    &bt BT_CLR &bt BT_CLR       &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR   
+                    &bt BT_CLR &out OUT_USB &bt BT_CLR       &bt BT_CLR                           &out OUT_USB &bt BT_CLR &bt BT_CLR &bt BT_CLR
+                        &bt BT_CLR       &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR
+                    &bt BT_CLR       &bt BT_CLR                                                                 &bt BT_CLR
+                            &bt BT_CLR       &bt BT_CLR &bt BT_CLR &out OUT_USB &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR &bt BT_CLR       &bt BT_CLR
 
             >;
 
