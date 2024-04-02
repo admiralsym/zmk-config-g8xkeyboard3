@@ -12,49 +12,21 @@
         diode-direction = "col2row";
 
         row-gpios = 
-                    <&blackpill 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&blackpill 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&blackpill 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&blackpill 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&blackpill 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&blackpill 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&blackpill 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&blackpill 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&blackpill 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+                    <&gpio0 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 
         col-gpios = 
-                    <&blackpill 25 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 26 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 27 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 28 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 29 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 30 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 31 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 38 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 39 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 40 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 41 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 42 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 43 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 44 GPIO_ACTIVE_HIGH>;
+                    <&gpio1 8 GPIO_ACTIVE_HIGH>;
 
 
     };
 
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
-        columns = <14>;
-        rows = <9>;
+        columns = <1>;
+        rows = <1>;
         map = <
-1
-            RC(1,1) RC(1,2) RC(1,3)                 
 
-            RC(4,1) RC(4,2)       RC(4,5) RC(4,6)         RC(4,10)       RC(4,13) RC(4,14) RC(4,15) RC(4,16)
-            RC(5,3) RC(5,4)       RC(5,6) RC(5,7) RC(5,8) RC(5,9) RC(5,10) RC(5,11) RC(5,12) RC(5,13) RC(5,14) RC(5,15)   
-            RC(6,1) RC(6,2) RC(6,3)       RC(6,5)                           RC(6,12) RC(6,13) RC(6,14) RC(6,15)
-                RC(7,4)       RC(7,6) RC(7,7) RC(7,8) RC(7,9) RC(7,10) RC(7,11) RC(7,12) RC(7,13) RC(7,14) RC(7,15) RC(7,16)
-            RC(8,1)       RC(8,3)                                                                 RC(8,15)
-                    RC(9,4)       RC(9,6) RC(9,7) RC(9,8) RC(9,9) RC(9,10) RC(9,11) RC(9,12) RC(9,13) RC(9,14)       RC(9,16)
+            RC(0,0)
             
 
         >;
