@@ -11,24 +11,15 @@
         label = "default_kscan";
         diode-direction = "col2row";
 
-        row-gpios = 
-                    <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
-
         col-gpios = 
                     <&gpio0 9 GPIO_ACTIVE_HIGH>;
 
+        row-gpios = 
+                    <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+
+
+
 
     };
 
-    default_transform: keymap_transform_0 {
-        compatible = "zmk,matrix-transform";
-        rows = <1>;
-        columns = <1>;
-        map = <
-
-            RC(0,0)
-            
-
-        >;
-    };
 };
